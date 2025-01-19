@@ -14,3 +14,9 @@ when you do install it..
 use a modem  if you dont it will either orphan or fail to install  so you need a usb modem or a pci modem
 or delete the Variable Modem
 
+
+the Callattendant for Raspberry Pi etc located
+https://github.com/thess/callattendant/wiki
+
+the docker-templated located
+https://github.com/telnetdoogie/callattendant-docker
