@@ -30,6 +30,8 @@ https://github.com/thess/callattendant/issues&#xD;
 Support for Callattendat-Docker &#xD;
 https://github.com/telnetdoogie/callattendant-docker/issues&#xD;
 &#xD;
+Support for Unraid Docker CA &#xD;
+https://github.com/comet424/callattendant_unraid_CA/issues&#xD;
 &#xD;
 DockerHub:&#xD;
 https://hub.docker.com/r/telnetdoogie/callattendant-docker&#xD;
@@ -40,16 +42,16 @@ If you dont have a usb modem at time of installing remove  MODEM variable  or th
   <Category>HomeAutomation: Other: MediaApp:Other MediaServer:Other Network:Web Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL/>
-  <Icon>http://mcproductions.mine.nu/call_attendant%20.png</Icon>
+  <Icon>https://github.com/comet424/callattendant_unraid_CA/blob/main/call_attendant.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1737045352</DateInstalled>
+  <DateInstalled>1737250378</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="/app/config" Target="/app/config" Default="/mnt/user/appdata/callattendant/config" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/callattendant/config</Config>
   <Config Name="HTTP Port" Target="5000" Default="5000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">5000</Config>
-  <Config Name="Modem" Target="" Default="" Mode="" Description="/dev/ttyACM0  #Modem location&#13;&#10;delete Modem variable if you dont have modem yet  not just leave it blank.. as it will orphan or fail to install callattendant" Type="Device" Display="always" Required="false" Mask="false">/dev/ttyACM0</Config>
+  <Config Name="Modem" Target="" Default="" Mode="" Description="/dev/ttyACM0  #Modem location&#13;&#10;delete Modem variable if you dont have modem yet  not just leave it blank.. as it will orphan or fail to install callattendant" Type="Device" Display="always" Required="true" Mask="false">/dev/ttyACM0 </Config>
   <Config Name="AppData Config Path" Target="/config" Default="/mnt/user/appdata/callattendant" Mode="rw" Description="" Type="Path" Display="advanced-hide" Required="true" Mask="false">/mnt/user/appdata/callattendant</Config>
 </Container>
